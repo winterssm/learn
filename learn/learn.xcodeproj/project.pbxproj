@@ -19,6 +19,8 @@
 		9BEDAFF4195365CD00F1F13C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEDAFDC195365CD00F1F13C /* UIKit.framework */; };
 		9BEDAFFC195365CD00F1F13C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BEDAFFA195365CD00F1F13C /* InfoPlist.strings */; };
 		9BEDAFFE195365CD00F1F13C /* learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEDAFFD195365CD00F1F13C /* learnTests.m */; };
+		9BEDB00A1953660600F1F13C /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEDB0081953660600F1F13C /* AppViewController.m */; };
+		9BEDB00B1953660600F1F13C /* AppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BEDB0091953660600F1F13C /* AppViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		9BEDAFF9195365CD00F1F13C /* learnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "learnTests-Info.plist"; sourceTree = "<group>"; };
 		9BEDAFFB195365CD00F1F13C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BEDAFFD195365CD00F1F13C /* learnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnTests.m; sourceTree = "<group>"; };
+		9BEDB0071953660600F1F13C /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		9BEDB0081953660600F1F13C /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		9BEDB0091953660600F1F13C /* AppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				9BEDAFE8195365CD00F1F13C /* AppDelegate.m */,
 				9BEDAFEA195365CD00F1F13C /* Images.xcassets */,
 				9BEDAFDF195365CD00F1F13C /* Supporting Files */,
+				9BEDB0071953660600F1F13C /* AppViewController.h */,
+				9BEDB0081953660600F1F13C /* AppViewController.m */,
+				9BEDB0091953660600F1F13C /* AppViewController.xib */,
 			);
 			path = learn;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BEDAFE3195365CD00F1F13C /* InfoPlist.strings in Resources */,
+				9BEDB00B1953660600F1F13C /* AppViewController.xib in Resources */,
 				9BEDAFEB195365CD00F1F13C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BEDAFE9195365CD00F1F13C /* AppDelegate.m in Sources */,
+				9BEDB00A1953660600F1F13C /* AppViewController.m in Sources */,
 				9BEDAFE5195365CD00F1F13C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

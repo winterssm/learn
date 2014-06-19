@@ -10,4 +10,15 @@
 
 @interface AppViewController : UIViewController
 
+-(IBAction)shareButton;
+-(IBAction)cameraButton;
+-(IBAction)galleryButton;
+-(IBAction)updateButton;
+
+@property (weak, nonatomic) IBOutlet UILabel *upperLabel;
+@property (weak, nonatomic) IBOutlet UILabel *lowerLabel;
+@property (weak, nonatomic) IBOutlet UITextField *upperText;
+@property (weak, nonatomic) IBOutlet UITextField *lowerText;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
